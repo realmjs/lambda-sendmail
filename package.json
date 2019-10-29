@@ -1,0 +1,23 @@
+{
+  "name": "@realmjs/sendmail-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to send email",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realmjs/sendmail-lambda.git"
+  },
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realmjs/sendmail-lambda/issues"
+  },
+  "homepage": "https://github.com/realmjs/sendmail-lambda#readme",
+  "dependencies": {
+    "@realmjs/create-email": "^1.0.0",
+    "aws-sdk": "^2.558.0"
+  }
+}
