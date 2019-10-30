@@ -4,7 +4,7 @@ const aws = require('aws-sdk')
 
 // Create a new SES object.
 const ses = new aws.SES({
-  region: process.env.AWS_REGION
+  region: process.env.REGION
 })
 
 const createEmail = require('@realmjs/create-email')
