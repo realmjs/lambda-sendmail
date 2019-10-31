@@ -4,7 +4,7 @@
   "description": "AWS Lambda function to send email",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "zip": "realm zip"
   },
   "repository": {
     "type": "git",
